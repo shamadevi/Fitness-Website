@@ -1,0 +1,107 @@
+body{
+     text-align: center;
+}
+#title{
+  text-align: left;
+  background-image: url("Supplement-Fitness.jpg");
+}
+
+.container-fluid {
+  padding: 40% 15% 7%;
+}
+/* Navbar Section */
+
+.navbar{
+  padding: 0 0 3rem 0;
+  top: 0px;
+}
+.navbar-brand{
+  margin-left: 150px;
+}
+.navbar-nav{
+margin-right: 30px;
+}
+li{
+  padding-left: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 6px white;
+
+}
+.pic{
+  width: 100%;
+}
+/* for navigation bar on scrolling */
+.blurrycontent  {
+  padding: 1rem ;
+	top: 0; left: 0;
+	width: 100%;
+	height: 5rem;
+	overflow: visible;
+	position: fixed;
+	/* filter: blur(1.5px); */
+  background-color: rgba(13,7,25,0.9);
+
+
+}
+.blurrycontent .navbar .nav-link{
+  margin-bottom: 10px;
+
+
+}
+.blurrycontent .navbar{
+  height: 9.8rem;
+}
+.blurrycontent .navbar .navbar-brand{
+  margin-top: 15px;
+}
+
+/* for Section methods */
+#methods{
+  background-color: #f05454;
+  padding: 150px 50px;
+
+}
+.row{
+  margin:auto;
+}
+
+.columns{
+  color: white;
+}
+h2{
+  text-align: center;
+}
+
+/* For section How it works */
+#Works{
+  background-color: #a8dda8;
+}
+.columns{
+  padding: 2%;
+}
+p{
+  text-align: center;
+}
+
+/* for how it WORKS */
+#Works{
+  background-image: url("hero3-best-gyms-clermont.jpg");
+  padding: 150px 50px;
+}
+p{
+  color: white;
+
+}
+
+/* for contact section */
+.Copyright{
+  color: Black;
+}
+footer{
+padding: 7% 15%;
+}
+.footer-icons{
+  padding: 10px;
+  margin-left: auto;
+}
