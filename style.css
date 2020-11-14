@@ -1,19 +1,12 @@
 body{
      text-align: center;
-}
-#title{
-  text-align: left;
-  background-image: url("Supplement-Fitness.jpg");
-}
 
-.container-fluid {
-  padding: 40% 15% 7%;
 }
-/* Navbar Section */
-
+/* Section title */
 .navbar{
   padding: 0 0 3rem 0;
   top: 0px;
+  background: transparent:important;
 }
 .navbar-brand{
   margin-left: 150px;
@@ -41,6 +34,7 @@ li{
 	position: fixed;
 	/* filter: blur(1.5px); */
   background-color: rgba(13,7,25,0.9);
+  z-index: 16;
 
 
 }
@@ -56,52 +50,84 @@ li{
   margin-top: 15px;
 }
 
-/* for Section methods */
-#methods{
-  background-color: #f05454;
-  padding: 150px 50px;
+/* for method section */
 
+#methods{
+  padding:5%;
+  background-color: #ffa5a5;
+}
+.card{
+    box-shadow: 0 0px 10px 0 #e8e8e8;
+     background-color: #ffcbcb;
+    transition: 0.3s;
+ }
+
+ /* for how it works section */
+ #Works{
+   background-color: #f5b461    ;
+   padding: 5px;
+   background-image: url("footer.jpg");}
+
+ .working{
+ width: 50%;
+ margin: 100px auto 50px 200px;
+ text-align: left;
+ position: relative;
+
+
+}
+.working-gym{
+width: 50%;
+margin: 100px auto 100px 100px;
+text-align: left;
+position: relative;
+
+
+}
+
+.gyming{
+  float:left;
+  margin-right: 25px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: white;
+}
+.yoga{
+  float: left;
+  margin-right: 50px;
+  font-size: 3rem;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.mad{
+  font-family: 'Satisfy', cursive;
+  font-weight: 200;
+  font-size: 2rem;
+  color: black;
+}
+
+/* footer Section */
+footer{
+  padding: 30px;
+  background-color: rgba(13,7,25,0.9);
 }
 .row{
-  margin:auto;
+  margin-top: 40px;
 }
-
-.columns{
+h3{
   color: white;
 }
-h2{
-  text-align: center;
-}
-
-/* For section How it works */
-#Works{
-  background-color: #a8dda8;
-}
-.columns{
-  padding: 2%;
-}
-p{
-  text-align: center;
-}
-
-/* for how it WORKS */
-#Works{
-  background-image: url("hero3-best-gyms-clermont.jpg");
-  padding: 150px 50px;
-}
-p{
+.foot{
   color: white;
-
-}
-
-/* for contact section */
-.Copyright{
-  color: Black;
-}
-footer{
-padding: 7% 15%;
 }
 .footer-icons{
-  padding: 10px;
-  margin-left: auto;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.Copyright{
+  margin-bottom: 40px;
+  margin-top:  50px;
+  font-size: 1.2rem;
+  font-family: cursive;
 }
