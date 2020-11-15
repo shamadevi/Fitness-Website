@@ -1,13 +1,98 @@
 body{
-	background: #383a3d;
-	padding-top: 25vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+
 }
-/* set form background colour*/
-form{
-	background: #fff;
+
+body:before{
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://tse4.mm.bing.net/th?id=OIP.tveDtxVyt8Eo1OGkeyYmawHaEK&pid=Api&P=0&w=271&h=153");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	filter: blur(10px);
 }
-/* set padding and size of th form */
-.form-container{
-	border-radius: 10px;
-	padding: 30px;
+.login-form{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 500px;
+	padding: 80px 40px;
+	background: rgba(0,0,0,0.6);
+}
+.login-form h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.login-form p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.login-form input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-form input[type=email],
+.login-form input[type=password]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #fff;
+	font-size: 15px;
+}
+.login-form input[type=submit]{
+	height: 30px;
+	color: #fff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 15%;
+}
+
+input[type=checkbox]{
+	width: 20%;
+}
+
+.navbar{
+  /* padding: 0 0 3rem 0; */
+  top: 0px;
+  background: transparent:important;
+}
+.navbar-brand{
+  margin-left: 150px;
+}
+.navbar-nav{
+margin-right: 30px;
+}
+li{
+  padding-left: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 6px white;
+
 }
